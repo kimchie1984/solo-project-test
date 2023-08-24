@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.--nav-wrapper {
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.--logo {
+    width: 24px;
+    height: 24px;
+}
+
+.--logo-title {
+    color: whitesmoke;
+    margin-left: 8px;
+    font-size: 14.46px;
+}
+
+.--article {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border-bottom: 1px solid #E5E5E5;
+    padding: 50px 30px;
+    max-width: 550px;
+    
+}
+
+.--photo {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    margin: 0 20px 0 0;
+    border-radius: 5px;
+}
+
+p,
+.--endDate,
+.--startDate {
+    font-size: 10.24px;
+}
+
+.--japan {
+    letter-spacing: 2px;
+    margin: 0 15px 0 3.5px;
+}
+
+.--endDate,
+.--startDate {
+    margin: 20px 0 0 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.--endDate {
+    margin-left: 3px;
+}
+
+.--map-title {
+    text-decoration: underline;
+    color: #918E9B;
+}
+
+h1{
+    margin: 0 auto;
+}
+
+h6 {
+    margin: 20px auto 5px auto; 
+}
